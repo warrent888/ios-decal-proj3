@@ -15,6 +15,8 @@
 		3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A21BE9B717009F39C5 /* Utils.swift */; };
 		3A1683A71BE9C593009F39C5 /* InstagramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */; };
 		3A1683A91BE9C5A7009F39C5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A81BE9C5A7009F39C5 /* Photo.swift */; };
+		84CEC5F41BFA8F6800417831 /* PhotosCollectionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CEC5F31BFA8F6800417831 /* PhotosCollectionsCell.swift */; settings = {ASSET_TAGS = (); }; };
+		84CEC5F61BFA8FD100417831 /* PhotosCollectionsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CEC5F51BFA8FD100417831 /* PhotosCollectionsDetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		3A1683A21BE9B717009F39C5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramAPI.swift; sourceTree = "<group>"; };
 		3A1683A81BE9C5A7009F39C5 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		84CEC5F31BFA8F6800417831 /* PhotosCollectionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosCollectionsCell.swift; path = "../../../../../Compsci/iOS/ios-decal-proj3/Photos/Photos/PhotosCollectionsCell.swift"; sourceTree = "<group>"; };
+		84CEC5F51BFA8FD100417831 /* PhotosCollectionsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCollectionsDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				3A1683911BE9B642009F39C5 /* PhotosCollectionViewController.swift */,
+				84CEC5F51BFA8FD100417831 /* PhotosCollectionsDetailsViewController.swift */,
+				84CEC5F31BFA8F6800417831 /* PhotosCollectionsCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 			files = (
 				3A1683921BE9B642009F39C5 /* PhotosCollectionViewController.swift in Sources */,
 				3A1683901BE9B642009F39C5 /* AppDelegate.swift in Sources */,
+				84CEC5F41BFA8F6800417831 /* PhotosCollectionsCell.swift in Sources */,
+				84CEC5F61BFA8FD100417831 /* PhotosCollectionsDetailsViewController.swift in Sources */,
 				3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */,
 				3A1683A71BE9C593009F39C5 /* InstagramAPI.swift in Sources */,
 				3A1683A91BE9C5A7009F39C5 /* Photo.swift in Sources */,
@@ -284,9 +292,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Photos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iOS-DeCal.Photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -295,9 +305,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Photos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iOS-DeCal.Photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
